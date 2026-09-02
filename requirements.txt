@@ -1,0 +1,7 @@
+torch>=2.0
+transformers>=4.40
+datasets>=2.19
+pandas>=2.0
+pyarrow>=14.0
+huggingface-hub>=0.22
+wandb>=0.17

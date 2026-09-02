@@ -1,0 +1,38 @@
+# Datasets — never commit raw or processed data
+data/raw/
+data/processed/
+*.parquet
+*.csv
+
+# Python bytecode / caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+.env.*
+
+# Local model checkpoints and training artifacts
+models/
+checkpoints/
+wandb/
+runs/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Claude Code local files (keep CLAUDE.md — it's the project spec)
+.claude/
+CLAUDE.local.md
+CLAUDE.md
